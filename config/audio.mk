@@ -16,6 +16,7 @@
 
 PRODUCT_COPY_FILES += \
     vendor/pixelstyle/audio/alarms/A_real_hoot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/A_real_hoot.ogg \
+    vendor/pixelstyle/audio/alarms/PAC-Alarm.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/PAC-Alarm.ogg \
     vendor/pixelstyle/audio/alarms/Bright_morning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Bright_morning.ogg \
     vendor/pixelstyle/audio/alarms/Cuckoo_clock.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Cuckoo_clock.ogg \
     vendor/pixelstyle/audio/alarms/Early_twilight.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Early_twilight.ogg \
@@ -28,6 +29,8 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/audio/alarms/Spokes.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Spokes.ogg \
     vendor/pixelstyle/audio/alarms/Sunshower.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/alarms/Sunshower.ogg \
     vendor/pixelstyle/audio/notifications/Beginning.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Beginning.ogg \
+    vendor/pixelstyle/audio/notifications/PAC-Notifications.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/PAC-Notifications.ogg \
+    vendor/pixelstyle/audio/notifications/Transforme.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Transforme.ogg \
     vendor/pixelstyle/audio/notifications/Coconuts.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Coconuts.ogg \
     vendor/pixelstyle/audio/notifications/Duet.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/Duet.ogg \
     vendor/pixelstyle/audio/notifications/End_note.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/notifications/End_note.ogg \
@@ -45,6 +48,10 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/audio/ringtones/Copycat.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Copycat.ogg \
     vendor/pixelstyle/audio/ringtones/Crackle.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Crackle.ogg \
     vendor/pixelstyle/audio/ringtones/Flutterby.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Flutterby.ogg \
+    vendor/pixelstyle/audio/ringtones/Autobot.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Autobot.ogg \
+    vendor/pixelstyle/audio/ringtones/PAC-Ringtone.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/PAC-Ringtone.ogg \
+    vendor/pixelstyle/audio/ringtones/RollOut.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/RollOut.ogg \
+    vendor/pixelstyle/audio/ringtones/bumblebee.mp3:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/bumblebee.mp3 \
     vendor/pixelstyle/audio/ringtones/Hotline.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Hotline.ogg \
     vendor/pixelstyle/audio/ringtones/Leaps_and_bounds.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Leaps_and_bounds.ogg \
     vendor/pixelstyle/audio/ringtones/Lollipop.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ringtones/Lollipop.ogg \
@@ -83,6 +90,6 @@ PRODUCT_COPY_FILES += \
 
 # Change default sounds
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.config.ringtone=The_big_adventure.ogg \
-    ro.config.notification_sound=Popcorn.ogg \
-    ro.config.alarm_alert=Bright_morning.ogg
+    ro.config.ringtone=PAC-Ringtone.ogg \
+    ro.config.notification_sound=PAC-Notifications.ogg \
+    ro.config.alarm_alert=PAC-Alarm.ogg
