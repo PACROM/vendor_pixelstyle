@@ -89,7 +89,7 @@ PRODUCT_COPY_FILES += \
     vendor/pixelstyle/audio/ui/WirelessChargingStarted.ogg:$(TARGET_COPY_OUT_PRODUCT)/media/audio/ui/WirelessChargingStarted.ogg
 
 # Change default sounds
-PRODUCT_PROPERTY_OVERRIDES += \
+PRODUCT_PRODUCT_PROPERTIES += \
     ro.config.ringtone=PAC-Ringtone.ogg \
     ro.config.notification_sound=PAC-Notifications.ogg \
     ro.config.alarm_alert=PAC-Alarm.ogg
